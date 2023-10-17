@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NevigationDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">Button</string>
+    <string name="type_your_answer1">Type your answer</string>
+    <string name="main_fragment2">Main Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="textview1">TextView</string>
+    <string name="enter_your_question_here">Enter your Question here!</string>
+    <string name="main_fragment">Main Fragment</string>
+    <string name="this_is_second_fragment_2">This is Second Fragment 2</string>
+    <string name="textview">TextView</string>
+    <string name="type_your_answer">Type your answer</string>
+    <string name="second_fragment_2">Second Fragment 2</string>
+    <string name="this_is_main_fragment">This is Main Fragment</string>
+    <string name="textview4">TextView</string>
+</resources>

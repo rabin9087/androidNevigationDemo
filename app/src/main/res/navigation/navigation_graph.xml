@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.nevigationdemo.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+        <argument
+            android:name="message1"
+            app:argType="string"
+            android:defaultValue="No Message1" />
+        <action
+            android:id="@+id/action_mainFragment_to_secondFragment2"
+            app:destination="@id/secondFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.nevigationdemo.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <argument
+            android:name="message"
+            app:argType="string"
+            android:defaultValue="No message" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment2"
+        android:name="com.example.nevigationdemo.SecondFragment2"
+        android:label="fragment_second2"
+        tools:layout="@layout/fragment_second2" >
+        <action
+            android:id="@+id/action_secondFragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <argument
+            android:name="message3"
+            app:argType="string"
+            android:defaultValue="No message3" />
+    </fragment>
+</navigation>
